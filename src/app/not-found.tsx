@@ -1,7 +1,7 @@
-export default function NotFound() {
+export default async function NotFound() {
     return (
-      <div className="text-red-700 text-center mt-32 font-bold">
-        <h2>Not Found</h2>
-      </div>
+        <div className="text-3xl flex justify-center items-center w-full text-red-800">
+        <h1>Not Found</h1>
+        </div>
     )
-  }
+}
