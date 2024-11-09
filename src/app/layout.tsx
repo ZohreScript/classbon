@@ -2,8 +2,8 @@ import "./globals.css";
 
 import { Figtree } from "next/font/google";
 import localFont from "next/font/local";
-import { Header } from "./_components/header/header";
 import { Footer } from "./_components/footer/footer";
+import { Header } from "./_components/header";
 
 const figtree = Figtree({
   display: "swap",
