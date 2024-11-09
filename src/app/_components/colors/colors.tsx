@@ -17,6 +17,7 @@ const ColorBox: React.FC<{ name: string; color: string }> = ({
             backgroundColor: color,
             color: getTextColor(color),
         }}
+        lang="en"
     >
         <span>{name}</span>
         <span>{color}</span>
