@@ -64,7 +64,17 @@ const config: Config = {
   theme: {
     colors: tailwindColors,
     container: {
-        center: true
+        center: true,
+        padding: {
+            DEFAULT: '1rem',
+            lg: '3rem',
+            xl: '4rem',
+          },
+    },
+    extend: {
+        backgroundImage: {
+            'hero-pattern': "url('/images/tile.svg')"
+        }
     }
   },
   darkMode: "class",
