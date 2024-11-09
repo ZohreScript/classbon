@@ -8,77 +8,77 @@
 
     /* default btn */
     & {
-        @apply border-base-200 bg-base-200 text-base-content  outline-base-content;
+        @apply dark:border-base-200 dark:bg-base-200 dark:text-base-content  dark:outline-base-content;
         @media (hover: hover) {
             &:hover {
-                @apply border-base-300 bg-base-300;
+                @apply dark:border-base-300 dark:bg-base-300;
             }
         }
     }
     /* brand colors */
     &-primary {
-        @apply border-primary bg-primary text-primary-content outline-primary;
+        @apply dark:border-primary dark:bg-primary dark:text-primary-content dark:outline-primary;
         @media (hover: hover) {
             &:hover {
-                @apply border-primary-focus bg-primary-focus;
+                @apply dark:border-primary-focus dark:bg-primary-focus;
             }
         }
     }
     &-secondary {
-        @apply border-secondary bg-secondary text-secondary-content outline-secondary;
+        @apply dark:border-secondary dark:bg-secondary dark:text-secondary-content dark:outline-secondary;
         @media (hover: hover) {
             &:hover {
-                @apply border-secondary-focus bg-secondary-focus;
+                @apply dark:border-secondary-focus dark:bg-secondary-focus;
             }
         }
     }
     &-accent {
-        @apply border-accent bg-accent text-accent-content outline-accent;
+        @apply dark:border-accent dark:bg-accent dark:text-accent-content dark:outline-accent;
         @media (hover: hover) {
             &:hover {
-                @apply border-accent-focus bg-accent-focus;
+                @apply dark:border-accent-focus dark:bg-accent-focus;
             }
         }
     }
     &-neutral {
-        @apply border-neutral bg-neutral text-base-content outline-neutral;
+        @apply dark:border-neutral dark:bg-neutral dark:text-base-content dark:outline-neutral;
         @media (hover: hover) {
             &:hover {
-                @apply border-neutral-focus bg-neutral-focus;
+                @apply dark:border-neutral-focus dark:bg-neutral-focus;
             }
         }
     }
 
     /* btn with state colors */
     &-info {
-        @apply border-info bg-info text-info-content outline-info;
+        @apply dark:border-info dark:bg-info dark:text-info-content dark:outline-info;
         @media (hover: hover) {
             &:hover {
-                @apply border-info bg-info;
+                @apply dark:border-info dark:bg-info;
             }
         }
     }
     &-success {
-        @apply border-success bg-success text-base-100 outline-success;
+        @apply dark:border-success dark:bg-success dark:text-base-100 dark:outline-success;
         @media (hover: hover) {
             &:hover {
-                @apply border-success bg-success;
+                @apply dark:border-success dark:bg-success;
             }
         }
     }
     &-warning {
-        @apply border-warning bg-warning text-base-100 outline-warning;
+        @apply dark:border-warning dark:bg-warning dark:text-base-100 dark:outline-warning;
         @media (hover: hover) {
             &:hover {
-                @apply border-warning bg-warning;
+                @apply dark:border-warning dark:bg-warning;
             }
         }
     }
     &-error {
-        @apply border-error bg-error text-base-100 outline-error;
+        @apply dark:border-error dark:bg-error dark:text-base-100 dark:outline-error;
         @media (hover: hover) {
             &:hover {
-                @apply border-error bg-error;
+                @apply dark:border-error dark:bg-error;
             }
         }
     }
@@ -88,12 +88,12 @@
         @apply border border-transparent bg-transparent text-current  outline-current;
         @media (hover: hover) {
             &:hover {
-                @apply border-opacity-0 bg-base-content bg-opacity-20;
+                @apply border-opacity-0 dark:bg-base-content bg-opacity-20;
             }
         }
     }
     &-link {
-        @apply border-transparent bg-transparent text-primary   outline-none h-auto px-1;
+        @apply border-transparent bg-transparent dark:text-primary   outline-none h-auto px-1;
         @media (hover: hover) {
             &:hover {
                 @apply border-transparent bg-transparent underline;
@@ -170,12 +170,12 @@
     /* disabled */
     &[disabled],
     &:disabled {
-        @apply pointer-events-none border-opacity-0 bg-neutral bg-opacity-20 text-base-content text-opacity-20;
+        @apply pointer-events-none border-opacity-0 dark:bg-neutral bg-opacity-20 dark:text-base-content text-opacity-20;
     }
     @media (hover: hover) {
         &[disabled]:hover,
         &:disabled:hover {
-            @apply border-opacity-0 bg-neutral bg-opacity-20 text-base-content text-opacity-20;
+            @apply border-opacity-0 dark:bg-neutral bg-opacity-20 dark:text-base-content text-opacity-20;
         }
     }
 
